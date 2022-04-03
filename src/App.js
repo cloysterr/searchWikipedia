@@ -7,7 +7,7 @@ import Search from "./components/Search";
 
 // const items = accordionData;
 
-export default () => {
+const App = () => {
   return (
     <div>
       {/* <Accordion items={items} /> */}
@@ -16,7 +16,7 @@ export default () => {
     </div>
   );
 };
-
+export default App;
 // const data = [
 //   {
 //     rollno: 1,
